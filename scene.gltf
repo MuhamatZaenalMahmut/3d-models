@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 16387,
+      "count": 1937,
       "max": [
-        1.0000020265579224,
-        1.0000009536743164,
-        1.0
+        500.0000305175781,
+        499.3760070800781,
+        500.0000305175781
       ],
       "min": [
-        -1.0,
-        -1.0,
-        -1.0
+        -500.0000305175781,
+        -499.3760070800781,
+        -500.0000305175781
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 196644,
+      "byteOffset": 23244,
       "componentType": 5126,
-      "count": 16387,
+      "count": 1937,
       "max": [
         1.0,
         1.0,
@@ -36,53 +36,53 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 16387,
+      "count": 1937,
       "max": [
         1.0,
-        1.0
+        0.999085009098053
       ],
       "min": [
-        0.0,
-        0.0
+        0.00017100000695791095,
+        0.002392888069152832
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 97536,
+      "count": 9216,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Solar Impulse (https://sketchfab.com/solarimpulse)",
+      "author": "Cybertron B-127 (https://sketchfab.com/robo-reboot)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/solar-impulse-flight-path-298e1ac1fdb048e892d036d588d4322c",
-      "title": "Solar Impulse Flight Path"
+      "source": "https://sketchfab.com/3d-models/moon-d313b313b75840a891841f3d55262068",
+      "title": "Moon"
     },
-    "generator": "Sketchfab-12.65.0",
+    "generator": "Sketchfab-16.12.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 390144,
+      "byteLength": 36864,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 131096,
-      "byteOffset": 390144,
+      "byteLength": 15496,
+      "byteOffset": 36864,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 393288,
-      "byteOffset": 521240,
+      "byteLength": 46488,
+      "byteOffset": 52360,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -90,30 +90,24 @@
   ],
   "buffers": [
     {
-      "byteLength": 914528,
+      "byteLength": 98848,
       "uri": "scene.bin"
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_unlit"
-  ],
   "images": [
     {
-      "uri": "textures/Material.001_baseColor.jpeg"
+      "uri": "textures/Default_OBJ.005_baseColor.png"
     }
   ],
   "materials": [
     {
-      "doubleSided": true,
-      "extensions": {
-        "KHR_materials_unlit": {}
-      },
-      "name": "Material.001",
+      "name": "Default_OBJ.005",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0.0
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9
       }
     }
   ],
@@ -163,11 +157,41 @@
       "children": [
         2
       ],
-      "name": "earth.obj.cleaner"
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Cube.008_0"
     },
     {
       "mesh": 0,
-      "name": "Object_2"
+      "name": "Object_4"
     }
   ],
   "samplers": [
